@@ -1,0 +1,17 @@
+name: ChatHook
+description: ChatHook is a small plugin that sends a message from a chat to your external server.
+author: Kredwi
+website: https://new.kredwi.ru
+main: ru.kredwi.chathook.Main
+version: 1.0.0 # beta
+api-version: "1.13"
+depend: [PlaceholderAPI]
+commands:
+  chathook:
+    description: "The main command of the plugin"
+    usage: /<command> [reload]
+    permission: chathook.use
+permissions:
+  chathook.use:
+    description: "Permission to use plugin commands"
+    default: op
